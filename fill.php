@@ -49,9 +49,9 @@
             ], true);
 
             $filename = date('Y-m-d-H-i-s') . '-' . rand(010, 99) . '.txt'; 
-            file_put_contents("form\\formfiles\\".$filename, $contents);  
+            file_put_contents("formfiles//".$filename, $contents);  
 
-            header('Location: form\success.php');
+            header('Location: success.php');
             exit;
     
         }   
